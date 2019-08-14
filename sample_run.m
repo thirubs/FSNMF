@@ -4,6 +4,8 @@
 % J - Rank of the matrix
 % maxiter - Maximum number of Iterations
 
+% You may need Matlab Tensor Toolbox library
+
 %% Random Initialization of Factor matrices 
 N = ndims(XS);
 Uinit = cell(N,1);    
